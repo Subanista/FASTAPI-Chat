@@ -1,0 +1,120 @@
+/* App Styles */
+.App {
+  text-align: center;
+}
+
+/* App Bar Styles */
+.App-bar {
+  background-color: #008080; /* App bar background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  width: 100%; /* Full width */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow */
+  position: fixed; /* Fixed position */
+  top: 0; /* At the top */
+  z-index: 1000; /* Higher z-index */
+  text-align: center; /* Center align text */
+}
+
+.App-title {
+  font-size: 24px; /* Title font size */
+  margin: 0; /* Reset margin */
+  display: inline-block; /* Display as inline block */
+}
+
+/* Main Content Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px; /* Margin to avoid overlap with app bar */
+  padding: 10px; /* Add padding */
+}
+
+.chat-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 90%; /* Adjust width */
+  width: 100%; /* Full width */
+  max-height: 500px;
+  border: 1px solid #ccc;
+  overflow: hidden; /* Hide overflow */
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+.chat {
+  padding: 10px;
+  width: 100%; /* Full width */
+  height: 200px; /* Adjust height */
+  background-color: rgba(0, 128, 128, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* Input Container Styles */
+.input-chat-container {
+  padding: 10px;
+  height: auto;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 128, 128, 0.3);
+  width: 100%; /* Full width */
+}
+
+.input-chat {
+  width: 100%;
+  min-height: 25px;
+  outline: none;
+  border: 1px solid #ccc;
+  margin-right: 5px; /* Add right margin */
+}
+
+.submit-chat {
+  max-width: 100px; /* Adjust max width */
+  width: 20%; /* Adjust width */
+  background-color: #006666;
+  outline: none;
+  border: 1px solid #006666;
+  cursor: pointer;
+  color: white;
+}
+
+.submit-chat:hover {
+  background-color: #004d4d;
+}
+
+/* Message Styles */
+.message-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+.message {
+  padding: 5px;
+  width: fit-content;
+  background-color: rgba(0, 128, 128, 0.5);
+  border: 1px solid #006666;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5px; /* Adjust top margin */
+  margin-bottom: 5px; /* Adjust bottom margin */
+}
+
+.my-message-container {
+  justify-content: flex-end;
+}
+
+.my-message {
+  background-color: rgba(0, 128, 128, 0.5);
+  border: 1px solid #006666;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.client {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px; /* Adjust bottom margin */
+}
